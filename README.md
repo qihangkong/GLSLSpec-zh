@@ -3,5 +3,6 @@
 
 英文原文参考：https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.4.60.html
 
-本项目gitbook访问地址：
-https://qihangkong.gitbook.io/glsl-spec
+本项目gitbook访问地址：https://qihangkong.gitbook.io/glsl-spec
+
+有问题请联系：qihangkong@outlook.com
