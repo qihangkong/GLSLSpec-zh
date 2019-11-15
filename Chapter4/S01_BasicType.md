@@ -59,24 +59,24 @@ Note: 下表所说"访问纹理"，"sampler*"不透明类型访问纹理，"imag
 
 | 类型 | 含义 |
 |-|-|
-| sampler1D <br> texture1D <br> image1D | 访问1D纹理的句柄 |
+| sampler1D <br>texture1D <br>image1D | 访问1D纹理的句柄 |
 | sampler1DShadow | 访问1D深度纹理的句柄 |
-| sampler1DArray <br> texture1DArray <br> image1DArray | 访问1D数组纹理的句柄 |
+| sampler1DArray <br>texture1DArray <br>image1DArray | 访问1D数组纹理的句柄 |
 | sampler1DArrayShadow | 访问1D深度纹理数组的句柄 |
-| sampler2D <br> texture2D <br> image2D | 访问2D纹理的句柄 |
+| sampler2D <br>texture2D <br>image2D | 访问2D纹理的句柄 |
 | sampler2DShadow | 访问2D深度纹理的句柄 |
-| sampler2DArray <br> texture2DArray <br> image2DArray | 访问2D数组纹理的句柄 |
+| sampler2DArray <br>texture2DArray <br>image2DArray | 访问2D数组纹理的句柄 |
 | sampler2DArrayShadow | 访问2D深度纹理数组的句柄 |
-| sampler2DMS <br> texture2DMS <br> image2DMS | 访问2D多重采样纹理的句柄 |
-| sampler2DMSArray <br> texture2DMSArray <br> image2DMSArray | 访问2D多重采样纹理数组的句柄 |
-| sampler2DRect <br> texture2DRect <br> image2DRect | 访问2D矩形纹理的句柄 |
+| sampler2DMS <br>texture2DMS <br>image2DMS | 访问2D多重采样纹理的句柄 |
+| sampler2DMSArray <br>texture2DMSArray <br>image2DMSArray | 访问2D多重采样纹理数组的句柄 |
+| sampler2DRect <br>texture2DRect <br>image2DRect | 访问2D矩形纹理的句柄 |
 | sampler2DRectShadow | 通过比较访问矩形纹理的句柄 |
-| sampler3D <br> texture3D <br> image3D | 访问3D纹理的句柄 |
-| samplerCube <br> textureCube <br> imageCube | 访问立方体映射纹理的句柄 |
+| sampler3D <br>texture3D <br>image3D | 访问3D纹理的句柄 |
+| samplerCube <br>textureCube <br>imageCube | 访问立方体映射纹理的句柄 |
 | samplerCubeShadow | 通过比较访问立方体映射深度纹理的句柄 |
-| samplerCubeArray <br> textureCubeArray <br> imageCubeArray | 访问立方体映射数组纹理的句柄 |
+| samplerCubeArray <br>textureCubeArray <br>imageCubeArray | 访问立方体映射数组纹理的句柄 |
 | samplerCubeArrayShadow | 通过比较访问立方体映射数组深度纹理的句柄 |
-| samplerBuffer <br> textureBuffer <br> imageBuffer | 用于访问缓冲区纹理的句柄 |
+| samplerBuffer <br>textureBuffer <br>imageBuffer | 用于访问缓冲区纹理的句柄 |
 | subpassinput | 用于访问浮点subpass输入的句柄 |
 | subpassInputMS | 用于访问多重采样浮点 subpass 输入的句柄 |
 
@@ -84,17 +84,17 @@ Note: 下表所说"访问纹理"，"sampler*"不透明类型访问纹理，"imag
 
 | 类型 | 含义 |
 |-|-|
-| isampler1D <br> itexture1D <br> iimage1D | 访问整型1D纹理的句柄 |
-| isampler1DArray <br> itexture1DArray <br> iimage1DArray | 访问整型1D数组纹理的句柄 |
-| isampler2D <br> itexture2D <br> iimage2D | 访问整型2D纹理的句柄 |
-| isampler2DArray <br> itexture2DArray <br> iimage2DArray | 访问整型2D数组纹理的句柄 |
-| isampler2DMS <br> itexture2DMS <br> iimage2DMS | 访问整型2D多重采样纹理的句柄 |
-| isampler2DMSArray <br> itexture2DMSArray <br> iimage2DMSArray | 访问整型2D多重采样纹理数组的句柄 |
-| isampler2DRect <br> itexture2DRect <br> iimage2DRect | 访问整型2D矩形纹理的句柄 |
-| isampler3D <br> itexture3D <br> iimage3D | 访问整型3D纹理的句柄 |
-| isamplerCube <br> itextureCube <br> iimageCube | 访问整型立方体映射纹理的句柄 |
-| isamplerCubeArray <br> itextureCubeArray <br> iimageCubeArray | 访问整型立方体映射数组纹理的句柄 |
-| isamplerBuffer <br> itextureBuffer <br> iimageBuffer | 用于访问整型缓冲区纹理的句柄 |
+| isampler1D <br>itexture1D <br>iimage1D | 访问整型1D纹理的句柄 |
+| isampler1DArray <br>itexture1DArray <br>iimage1DArray | 访问整型1D数组纹理的句柄 |
+| isampler2D <br>itexture2D <br>iimage2D | 访问整型2D纹理的句柄 |
+| isampler2DArray <br>itexture2DArray <br>iimage2DArray | 访问整型2D数组纹理的句柄 |
+| isampler2DMS <br>itexture2DMS <br>iimage2DMS | 访问整型2D多重采样纹理的句柄 |
+| isampler2DMSArray <br>itexture2DMSArray <br>iimage2DMSArray | 访问整型2D多重采样纹理数组的句柄 |
+| isampler2DRect <br>itexture2DRect <br>iimage2DRect | 访问整型2D矩形纹理的句柄 |
+| isampler3D <br>itexture3D <br>iimage3D | 访问整型3D纹理的句柄 |
+| isamplerCube <br>itextureCube <br>iimageCube | 访问整型立方体映射纹理的句柄 |
+| isamplerCubeArray <br>itextureCubeArray <br>iimageCubeArray | 访问整型立方体映射数组纹理的句柄 |
+| isamplerBuffer <br>itextureBuffer <br>iimageBuffer | 用于访问整型缓冲区纹理的句柄 |
 | isubpassinput | 用于访问整型subpass输入的句柄 |
 | isubpassInputMS | 用于访问多重采样整型 subpass 输入的句柄 |
 
@@ -102,17 +102,17 @@ Note: 下表所说"访问纹理"，"sampler*"不透明类型访问纹理，"imag
 
 | 类型 | 含义 |
 |-|-|
-| isampler1D <br> itexture1D <br> iimage1D | 访问无符号整型1D纹理的句柄 |
-| isampler1DArray <br> itexture1DArray <br> iimage1DArray | 访问无符号整型1D数组纹理的句柄 |
-| isampler2D <br> itexture2D <br> iimage2D | 访问无符号整型2D纹理的句柄 |
-| isampler2DArray <br> itexture2DArray <br> iimage2DArray | 访问无符号整型2D数组纹理的句柄 |
-| isampler2DMS <br> itexture2DMS <br> iimage2DMS | 访问无符号整型2D多重采样纹理的句柄 |
-| isampler2DMSArray <br> itexture2DMSArray <br> iimage2DMSArray | 访问无符号整型2D多重采样纹理数组的句柄 |
-| isampler2DRect <br> itexture2DRect <br> iimage2DRect | 访问无符号整型2D矩形纹理的句柄 |
-| isampler3D <br> itexture3D <br> iimage3D | 访问无符号整型3D纹理的句柄 |
-| isamplerCube <br> itextureCube <br> iimageCube | 访问无符号整型立方体映射纹理的句柄 |
-| isamplerCubeArray <br> itextureCubeArray <br> iimageCubeArray | 访问无符号整型立方体映射数组纹理的句柄 |
-| isamplerBuffer <br> itextureBuffer <br> iimageBuffer | 用于访问无符号整型缓冲区纹理的句柄 |
+| isampler1D <br>itexture1D <br> iimage1D | 访问无符号整型1D纹理的句柄 |
+| isampler1DArray <br>itexture1DArray <br>iimage1DArray | 访问无符号整型1D数组纹理的句柄 |
+| isampler2D <br>itexture2D <br>iimage2D | 访问无符号整型2D纹理的句柄 |
+| isampler2DArray <br>itexture2DArray <br>iimage2DArray | 访问无符号整型2D数组纹理的句柄 |
+| isampler2DMS <br>itexture2DMS <br>iimage2DMS | 访问无符号整型2D多重采样纹理的句柄 |
+| isampler2DMSArray <br>itexture2DMSArray <br>iimage2DMSArray | 访问无符号整型2D多重采样纹理数组的句柄 |
+| isampler2DRect <br>itexture2DRect <br>iimage2DRect | 访问无符号整型2D矩形纹理的句柄 |
+| isampler3D <br>itexture3D <br>iimage3D | 访问无符号整型3D纹理的句柄 |
+| isamplerCube <br>itextureCube <br>iimageCube | 访问无符号整型立方体映射纹理的句柄 |
+| isamplerCubeArray <br>itextureCubeArray <br>iimageCubeArray | 访问无符号整型立方体映射数组纹理的句柄 |
+| isamplerBuffer <br>itextureBuffer <br>iimageBuffer | 用于访问无符号整型缓冲区纹理的句柄 |
 | atomic_uint | 用于访问无符号整数原子计数器的句柄 |
 | isubpassinput | 用于访问无符号整型subpass输入的句柄 |
 | isubpassInputMS | 用于访问无符号多重采样整型 subpass 输入的句柄 |
